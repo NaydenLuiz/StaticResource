@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StaticResourceDemo.HomePage">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="MyLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="Green"></Setter>
+        <Setter Property="FontSize" Value="40"></Setter>
+      </Style>
+      <Style x:Key="MyEntryStyle" TargetType="Entry">
+        <Setter Property="TextColor" Value="White"></Setter>
+      </Style> 
+      
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  
+  <StackLayout>
+    <Label Text="First Name" Style="{StaticResource MyLabelStyle}"></Label>
+    <Entry Text="Nayden Luiz" Style="{StaticResource MyEntryStyle}"></Entry>
+
+    <Label Text="Last Name" Style="{StaticResource MyLabelStyle}"></Label>
+    <Entry Text="Santos Cruz" Style="{StaticResource MyEntryStyle}"></Entry>
+
+    <Label Text="Email:" Style="{StaticResource MyLabelStyle}"></Label>
+    <Entry Text="nayden.luiz@gmail.com" Style="{StaticResource MyEntryStyle}"></Entry>
+ 
+    <Label Text="PIN CODE:" Style="{StaticResource MyLabelStyle}"></Label>
+    <Entry Text="123456" Style="{StaticResource MyEntryStyle}"></Entry>
+  </StackLayout>
+</ContentPage>

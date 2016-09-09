@@ -1,0 +1,2 @@
+C:\Users\nayden\Documents\LABTECH\LAB03\StaticResourceDemo\StaticResourceDemo\StaticResourceDemo.UWP\StaticResourceDemo.UWP.csproj;x86
+C:\Users\nayden\Documents\LABTECH\LAB03\StaticResourceDemo\StaticResourceDemo\StaticResourceDemo\StaticResourceDemo.csproj;neutral
